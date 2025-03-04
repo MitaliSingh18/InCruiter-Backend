@@ -20,31 +20,6 @@ A complete authentication system built with Node.js, Express, and MongoDB that p
 - **Password Hashing**: bcrypt.js
 - **Email Service**: Nodemailer
 
-## Project Structure
-
-```
-├── controllers/       # Route controllers
-│   └── auth.js        # Authentication controller
-├── middleware/        # Express middleware
-│   ├── auth.js        # Authentication middleware
-│   └── error.js       # Error handling middleware
-├── models/            # Database models
-│   └── User.js        # User model
-├── routes/            # API routes
-│   └── auth.js        # Authentication routes
-├── utils/             # Utility functions
-│   ├── errorResponse.js  # Custom error response class
-│   └── sendEmail.js   # Email sending utility
-├── pages/             # Frontend pages
-│   └── index.html     # Main application page
-├── static/            # Static assets
-│   ├── script.js      # Frontend JavaScript
-│   └── style.css      # CSS styles
-├── .env               # Environment variables
-├── index.js           # Application entry point
-└── package.json       # Project dependencies
-```
-
 ## API Endpoints
 
 ### Authentication
@@ -95,8 +70,8 @@ PORT=3010
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/auth-system.git
-   cd auth-system
+   git clone https://github.com/MitaliSingh18/Project.git
+   cd Project
    ```
 
 2. Install dependencies
@@ -136,14 +111,6 @@ PORT=3010
 5. Check your email for the reset link
 6. Follow the link and enter a new password
 
-## Security Features
-
-- **Password Hashing**: All passwords are hashed using bcrypt before storage
-- **JWT Authentication**: Secure, stateless authentication using JSON Web Tokens
-- **Input Validation**: Validation of all user inputs to prevent injection attacks
-- **MongoDB Validation**: Schema-level validation for data integrity
-- **Error Handling**: Comprehensive error handling to prevent information leakage
-
 ## Development
 
 ### Running in Development Mode
@@ -157,15 +124,3 @@ npm run dev
 ```
 npm start
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
