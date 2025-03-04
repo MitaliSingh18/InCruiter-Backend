@@ -71,7 +71,7 @@ PORT=3010
 1. Clone the repository
    ```
    git clone https://github.com/MitaliSingh18/Project.git
-   cd Project
+   cd InCruiter-Backend
    ```
 
 2. Install dependencies
